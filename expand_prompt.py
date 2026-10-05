@@ -28,19 +28,32 @@ def expand_prompt(spec):
     target_language = spec["language"]
 
     if target_language == "Chinese":
-        output_instruction = (
-            "Return exactly one Chinese image-generation prompt only. "
-            "Do not return English. "
-            "Do not add labels, explanations, headings, or bullet points. "
-            "Length target: about 100-130 Chinese characters."
-        )
+      output_instruction = (
+        "Return exactly one detailed Chinese image-generation prompt only. "
+        "Do not return English. "
+        "Do not add labels, explanations, headings, or bullet points. "
+        "Write one coherent paragraph of approximately 450-550 Chinese characters, "
+        "with a target length of about 500 Chinese characters. "
+        "Describe the document in detail, including overall appearance, "
+        "layout hierarchy, text density, required fields, table or section structure, "
+        "typography, spacing, visual condition, paper or screen characteristics, "
+        "and realistic document presentation. "
+        "Keep all details consistent with the provided structured specification."
+    )
+        
     elif target_language == "English":
-        output_instruction = (
-            "Return exactly one English image-generation prompt only. "
-            "Do not return Chinese. "
-            "Do not add labels, explanations, headings, or bullet points. "
-            "Length target: about 70-100 words."
-        )
+      output_instruction = (
+        "Return exactly one detailed English image-generation prompt only. "
+        "Do not return Chinese. "
+        "Do not add labels, explanations, headings, or bullet points. "
+        "Write one coherent paragraph of approximately 180-220 words, "
+        "with a target length of about 200 words. "
+        "Describe the document in detail, including overall appearance, "
+        "layout hierarchy, text density, required fields, table or section structure, "
+        "typography, spacing, visual condition, paper or screen characteristics, "
+        "and realistic document presentation. "
+        "Keep all details consistent with the provided structured specification."
+    )
     else:
         raise ValueError(
             f"Unsupported language: {target_language}"
@@ -85,11 +98,17 @@ Background:
 Generate one concise image-generation prompt based strictly on this specification.
 
 Requirements:
-1. Preserve the document type, layout, visual style, and required fields.
-2. Make the document text-rich and visually realistic.
-3. Avoid unnecessary words such as "sample", "fictional", "synthetic", "demo", or "example".
-4. The prompt should be a single paragraph.
-5. {output_instruction}
+1. Preserve the exact document type and all provided structured attributes.
+2. Include every required image-text field naturally in the description.
+3. Describe the page composition in detail, including header, body, tables, sections, footer, and information hierarchy when applicable.
+4. Clearly describe typography, spacing, alignment, text density, and the distribution of structured text across the page.
+5. Include realistic visual details based on the specified capture style, visual condition, background, and document theme.
+6. Make the document visually realistic and strongly text-rich.
+7. Do not invent a different document category or contradict the provided specification.
+8. Avoid unnecessary words such as "sample", "fictional", "synthetic", "demo", or "example".
+9. Do not explain the task or discuss the prompt-generation process.
+10. The final prompt must be a single coherent paragraph.
+11. {output_instruction}
 """
 
     print(
@@ -107,7 +126,8 @@ Requirements:
                     "You are a prompt expansion assistant for a "
                     "text-rich document image dataset. "
                     "Convert structured document specifications into "
-                    "concise image-generation prompts. "
+                    "detailed image-generation prompts with rich layout, text, "
+                    "and visual descriptions. "
                     "Do not change the underlying document category "
                     "or required fields."
                 )
