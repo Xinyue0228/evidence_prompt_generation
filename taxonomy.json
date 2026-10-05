@@ -1,0 +1,46 @@
+{
+    "Medical & Health Records": [
+      "Laboratory Test Report",
+      "Medical Examination Report",
+      "Diagnostic Report",
+      "Imaging Report"
+    ],
+  
+    "Academic Records": [
+      "Academic Transcript",
+      "Examination Result Report",
+      "Grade Report",
+      "Credit Record"
+    ],
+  
+    "Legal & Dispute Records": [
+      "Lawyer Letter",
+      "Legal Opinion",
+      "Dispute Record",
+      "Case Fact Record"
+    ],
+  
+    "Inspection & Verification Records": [
+      "Product Quality Inspection Report",
+      "Food Inspection Report",
+      "Environmental Test Report",
+      "Equipment Inspection Report",
+      "Appraisal Report"
+    ],
+  
+    "Logistics & Delivery Records": [
+      "Shipping Label",
+      "Waybill",
+      "Delivery Record",
+      "Proof of Delivery",
+      "Logistics Tracking Record"
+    ],
+  
+    "Institutional & Employment Records": [
+      "Attendance Record",
+      "Performance Report",
+      "Work Incident Record",
+      "Meeting Record",
+      "Employment Record"
+    ]
+  }

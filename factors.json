@@ -1,0 +1,59 @@
+{
+    "language": [
+      "Chinese",
+      "English"
+    ],
+  
+    "orientation": [
+      "portrait",
+      "landscape"
+    ],
+  
+    "text_density": [
+      "medium",
+      "high",
+      "very high"
+    ],
+  
+    "capture_style": [
+      "clean digital document",
+      "scanned printed document",
+      "phone photo of a printed document",
+      "photocopied document"
+    ],
+  
+    "layout_style": [
+      "table-dominant",
+      "form-like",
+      "mixed text and table",
+      "section-based",
+      "paragraph-dominant",
+      "timeline-based",
+      "compact label layout",
+      "checklist-style"
+    ],
+  
+    "visual_condition": [
+      "clean and sharp",
+      "slightly compressed",
+      "slightly blurred",
+      "slightly uneven lighting",
+      "minor perspective distortion",
+      "minor scanning noise",
+      "faint print or low contrast",
+      "slightly wrinkled paper"
+    ],
+  
+    "document_theme": [
+      "minimal professional",
+      "standard institutional",
+      "dense administrative",
+      "technical report"
+    ],
+  
+    "background": [
+      "plain white background",
+      "light gray document background",
+      "slightly off-white paper"
+    ]
+  }

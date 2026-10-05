@@ -1,0 +1,999 @@
+{
+    "Laboratory Test Report": {
+      "orientation": [
+        "portrait",
+        "landscape"
+      ],
+      "text_density": [
+        "high",
+        "very high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document",
+        "photocopied document"
+      ],
+      "layout_style": [
+        "table-dominant",
+        "mixed text and table"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion",
+        "minor scanning noise",
+        "faint print or low contrast"
+      ],
+      "document_theme": [
+        "standard institutional",
+        "dense administrative",
+        "technical report"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Medical Examination Report": {
+      "orientation": [
+        "portrait"
+      ],
+      "text_density": [
+        "high",
+        "very high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document",
+        "photocopied document"
+      ],
+      "layout_style": [
+        "mixed text and table",
+        "form-like",
+        "section-based"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion",
+        "minor scanning noise",
+        "faint print or low contrast"
+      ],
+      "document_theme": [
+        "standard institutional",
+        "dense administrative",
+        "technical report"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Diagnostic Report": {
+      "orientation": [
+        "portrait"
+      ],
+      "text_density": [
+        "medium",
+        "high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document",
+        "photocopied document"
+      ],
+      "layout_style": [
+        "section-based",
+        "paragraph-dominant",
+        "form-like"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion",
+        "minor scanning noise"
+      ],
+      "document_theme": [
+        "minimal professional",
+        "standard institutional",
+        "dense administrative"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Imaging Report": {
+      "orientation": [
+        "portrait"
+      ],
+      "text_density": [
+        "medium",
+        "high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document"
+      ],
+      "layout_style": [
+        "section-based",
+        "paragraph-dominant",
+        "mixed text and table"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion",
+        "minor scanning noise"
+      ],
+      "document_theme": [
+        "minimal professional",
+        "standard institutional",
+        "technical report"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Academic Transcript": {
+      "orientation": [
+        "portrait",
+        "landscape"
+      ],
+      "text_density": [
+        "high",
+        "very high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document",
+        "photocopied document"
+      ],
+      "layout_style": [
+        "table-dominant",
+        "mixed text and table"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion",
+        "minor scanning noise",
+        "faint print or low contrast"
+      ],
+      "document_theme": [
+        "standard institutional",
+        "dense administrative"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Examination Result Report": {
+      "orientation": [
+        "portrait",
+        "landscape"
+      ],
+      "text_density": [
+        "high",
+        "very high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document"
+      ],
+      "layout_style": [
+        "table-dominant",
+        "mixed text and table"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion",
+        "minor scanning noise"
+      ],
+      "document_theme": [
+        "standard institutional",
+        "dense administrative"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Grade Report": {
+      "orientation": [
+        "portrait",
+        "landscape"
+      ],
+      "text_density": [
+        "medium",
+        "high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document"
+      ],
+      "layout_style": [
+        "table-dominant",
+        "mixed text and table",
+        "form-like"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion"
+      ],
+      "document_theme": [
+        "minimal professional",
+        "standard institutional"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Credit Record": {
+      "orientation": [
+        "portrait",
+        "landscape"
+      ],
+      "text_density": [
+        "high",
+        "very high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document",
+        "photocopied document"
+      ],
+      "layout_style": [
+        "table-dominant",
+        "mixed text and table"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "minor perspective distortion",
+        "minor scanning noise",
+        "faint print or low contrast"
+      ],
+      "document_theme": [
+        "standard institutional",
+        "dense administrative"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Lawyer Letter": {
+      "orientation": [
+        "portrait"
+      ],
+      "text_density": [
+        "medium",
+        "high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document",
+        "photocopied document"
+      ],
+      "layout_style": [
+        "paragraph-dominant",
+        "section-based"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion",
+        "minor scanning noise"
+      ],
+      "document_theme": [
+        "minimal professional",
+        "standard institutional",
+        "dense administrative"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Legal Opinion": {
+      "orientation": [
+        "portrait"
+      ],
+      "text_density": [
+        "high",
+        "very high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "photocopied document"
+      ],
+      "layout_style": [
+        "paragraph-dominant",
+        "section-based"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "minor scanning noise",
+        "faint print or low contrast"
+      ],
+      "document_theme": [
+        "minimal professional",
+        "standard institutional",
+        "dense administrative"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Dispute Record": {
+      "orientation": [
+        "portrait"
+      ],
+      "text_density": [
+        "medium",
+        "high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document"
+      ],
+      "layout_style": [
+        "form-like",
+        "section-based",
+        "timeline-based",
+        "mixed text and table"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion",
+        "minor scanning noise"
+      ],
+      "document_theme": [
+        "standard institutional",
+        "dense administrative"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Case Fact Record": {
+      "orientation": [
+        "portrait"
+      ],
+      "text_density": [
+        "high",
+        "very high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "photocopied document"
+      ],
+      "layout_style": [
+        "section-based",
+        "paragraph-dominant",
+        "timeline-based"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "minor scanning noise",
+        "faint print or low contrast"
+      ],
+      "document_theme": [
+        "standard institutional",
+        "dense administrative"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Product Quality Inspection Report": {
+      "orientation": [
+        "portrait",
+        "landscape"
+      ],
+      "text_density": [
+        "high",
+        "very high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document",
+        "photocopied document"
+      ],
+      "layout_style": [
+        "table-dominant",
+        "mixed text and table",
+        "checklist-style"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion",
+        "minor scanning noise",
+        "faint print or low contrast"
+      ],
+      "document_theme": [
+        "standard institutional",
+        "dense administrative",
+        "technical report"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Food Inspection Report": {
+      "orientation": [
+        "portrait",
+        "landscape"
+      ],
+      "text_density": [
+        "high",
+        "very high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document",
+        "photocopied document"
+      ],
+      "layout_style": [
+        "table-dominant",
+        "mixed text and table"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion",
+        "minor scanning noise"
+      ],
+      "document_theme": [
+        "standard institutional",
+        "dense administrative",
+        "technical report"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Environmental Test Report": {
+      "orientation": [
+        "portrait",
+        "landscape"
+      ],
+      "text_density": [
+        "high",
+        "very high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document"
+      ],
+      "layout_style": [
+        "table-dominant",
+        "mixed text and table",
+        "section-based"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion",
+        "minor scanning noise"
+      ],
+      "document_theme": [
+        "dense administrative",
+        "technical report"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Equipment Inspection Report": {
+      "orientation": [
+        "portrait",
+        "landscape"
+      ],
+      "text_density": [
+        "medium",
+        "high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document"
+      ],
+      "layout_style": [
+        "checklist-style",
+        "table-dominant",
+        "form-like"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion",
+        "minor scanning noise"
+      ],
+      "document_theme": [
+        "standard institutional",
+        "technical report"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Appraisal Report": {
+      "orientation": [
+        "portrait"
+      ],
+      "text_density": [
+        "medium",
+        "high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document"
+      ],
+      "layout_style": [
+        "section-based",
+        "mixed text and table",
+        "paragraph-dominant"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion",
+        "minor scanning noise"
+      ],
+      "document_theme": [
+        "minimal professional",
+        "standard institutional",
+        "technical report"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Shipping Label": {
+      "orientation": [
+        "portrait",
+        "landscape"
+      ],
+      "text_density": [
+        "medium",
+        "high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document"
+      ],
+      "layout_style": [
+        "compact label layout",
+        "form-like"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion",
+        "faint print or low contrast",
+        "slightly wrinkled paper"
+      ],
+      "document_theme": [
+        "standard institutional",
+        "dense administrative"
+      ],
+      "background": [
+        "plain white background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Waybill": {
+      "orientation": [
+        "portrait",
+        "landscape"
+      ],
+      "text_density": [
+        "high",
+        "very high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document",
+        "photocopied document"
+      ],
+      "layout_style": [
+        "form-like",
+        "table-dominant",
+        "mixed text and table"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion",
+        "faint print or low contrast",
+        "slightly wrinkled paper"
+      ],
+      "document_theme": [
+        "standard institutional",
+        "dense administrative"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Delivery Record": {
+      "orientation": [
+        "portrait"
+      ],
+      "text_density": [
+        "medium",
+        "high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document"
+      ],
+      "layout_style": [
+        "form-like",
+        "mixed text and table",
+        "timeline-based"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion"
+      ],
+      "document_theme": [
+        "standard institutional",
+        "dense administrative"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Proof of Delivery": {
+      "orientation": [
+        "portrait"
+      ],
+      "text_density": [
+        "medium",
+        "high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document"
+      ],
+      "layout_style": [
+        "form-like",
+        "mixed text and table"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion",
+        "slightly wrinkled paper"
+      ],
+      "document_theme": [
+        "minimal professional",
+        "standard institutional"
+      ],
+      "background": [
+        "plain white background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Logistics Tracking Record": {
+      "orientation": [
+        "portrait"
+      ],
+      "text_density": [
+        "high",
+        "very high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document"
+      ],
+      "layout_style": [
+        "timeline-based",
+        "table-dominant",
+        "mixed text and table"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "minor perspective distortion"
+      ],
+      "document_theme": [
+        "minimal professional",
+        "standard institutional",
+        "dense administrative"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background"
+      ]
+    },
+  
+    "Attendance Record": {
+      "orientation": [
+        "portrait",
+        "landscape"
+      ],
+      "text_density": [
+        "high",
+        "very high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document",
+        "photocopied document"
+      ],
+      "layout_style": [
+        "table-dominant",
+        "mixed text and table"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion",
+        "minor scanning noise"
+      ],
+      "document_theme": [
+        "standard institutional",
+        "dense administrative"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Performance Report": {
+      "orientation": [
+        "portrait",
+        "landscape"
+      ],
+      "text_density": [
+        "medium",
+        "high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document"
+      ],
+      "layout_style": [
+        "table-dominant",
+        "mixed text and table",
+        "section-based"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion"
+      ],
+      "document_theme": [
+        "minimal professional",
+        "standard institutional",
+        "dense administrative"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Work Incident Record": {
+      "orientation": [
+        "portrait"
+      ],
+      "text_density": [
+        "medium",
+        "high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document",
+        "photocopied document"
+      ],
+      "layout_style": [
+        "form-like",
+        "section-based",
+        "paragraph-dominant"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion",
+        "minor scanning noise"
+      ],
+      "document_theme": [
+        "standard institutional",
+        "dense administrative"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Meeting Record": {
+      "orientation": [
+        "portrait"
+      ],
+      "text_density": [
+        "high",
+        "very high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document"
+      ],
+      "layout_style": [
+        "section-based",
+        "paragraph-dominant",
+        "mixed text and table"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "slightly uneven lighting",
+        "minor perspective distortion"
+      ],
+      "document_theme": [
+        "minimal professional",
+        "standard institutional",
+        "dense administrative"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    },
+  
+    "Employment Record": {
+      "orientation": [
+        "portrait",
+        "landscape"
+      ],
+      "text_density": [
+        "medium",
+        "high"
+      ],
+      "capture_style": [
+        "clean digital document",
+        "scanned printed document",
+        "phone photo of a printed document",
+        "photocopied document"
+      ],
+      "layout_style": [
+        "form-like",
+        "table-dominant",
+        "timeline-based",
+        "mixed text and table"
+      ],
+      "visual_condition": [
+        "clean and sharp",
+        "slightly compressed",
+        "minor perspective distortion",
+        "minor scanning noise",
+        "faint print or low contrast"
+      ],
+      "document_theme": [
+        "standard institutional",
+        "dense administrative"
+      ],
+      "background": [
+        "plain white background",
+        "light gray document background",
+        "slightly off-white paper"
+      ]
+    }
+  }
+  

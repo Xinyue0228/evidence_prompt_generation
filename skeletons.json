@@ -1,0 +1,461 @@
+{
+  "Laboratory Test Report": {
+    "overall_description": "A realistic medical laboratory test report with dense structured text and numerical results.",
+    "layout_structure": "Hospital or laboratory name at the top, patient information below, a large multi-row test result table in the center, and doctor information and report date at the bottom.",
+    "image_text": [
+      "patient name",
+      "patient ID",
+      "sample type",
+      "collection date",
+      "test item",
+      "result",
+      "unit",
+      "reference range",
+      "abnormal flag",
+      "doctor",
+      "report date"
+    ]
+  },
+  "Medical Examination Report": {
+    "overall_description": "A formal medical examination report summarizing multiple physical examination items and findings.",
+    "layout_structure": "Institution name and examinee information at the top, multiple examination sections or tables in the middle, and an overall conclusion with doctor information at the bottom.",
+    "image_text": [
+      "patient name",
+      "age",
+      "gender",
+      "examination date",
+      "examination item",
+      "measurement",
+      "result",
+      "reference value",
+      "doctor",
+      "overall conclusion"
+    ]
+  },
+  "Diagnostic Report": {
+    "overall_description": "A realistic clinical diagnostic report containing patient information, symptoms, findings, and a medical conclusion.",
+    "layout_structure": "Patient and visit information at the top, clinical findings and diagnostic details in the main body, followed by diagnosis, recommendations, doctor name, and date.",
+    "image_text": [
+      "patient name",
+      "patient ID",
+      "visit date",
+      "chief complaint",
+      "clinical findings",
+      "diagnosis",
+      "recommendation",
+      "doctor",
+      "report date"
+    ]
+  },
+  "Imaging Report": {
+    "overall_description": "A formal medical imaging report containing examination information, imaging findings, and diagnostic impressions.",
+    "layout_structure": "Institution and patient information at the top, imaging examination details and findings in the middle, and diagnostic impression with doctor information at the bottom.",
+    "image_text": [
+      "patient name",
+      "patient ID",
+      "examination type",
+      "body part",
+      "examination date",
+      "imaging findings",
+      "diagnostic impression",
+      "radiologist",
+      "report date"
+    ]
+  },
+  "Academic Transcript": {
+    "overall_description": "A formal academic transcript containing dense course records, grades, credits, and cumulative academic information.",
+    "layout_structure": "Institution and student information at the top, a large multi-row course table in the center, followed by semester statistics, cumulative GPA, credits, and issue information at the bottom.",
+    "image_text": [
+      "student name",
+      "student ID",
+      "program",
+      "academic year",
+      "course code",
+      "course name",
+      "credit",
+      "grade",
+      "semester GPA",
+      "cumulative GPA",
+      "total credits",
+      "issue date"
+    ]
+  },
+  "Examination Result Report": {
+    "overall_description": "A structured examination result report showing subject-level scores, rankings, and performance statistics.",
+    "layout_structure": "Institution and examination title at the top, student information below, a central score table with multiple subjects, followed by total score, ranking, and summary information.",
+    "image_text": [
+      "student name",
+      "student ID",
+      "examination name",
+      "subject",
+      "score",
+      "maximum score",
+      "class average",
+      "rank",
+      "total score",
+      "overall rank",
+      "examination date"
+    ]
+  },
+  "Grade Report": {
+    "overall_description": "A compact academic grade report summarizing a student's grades across multiple courses or assessment components.",
+    "layout_structure": "School and student information at the top, a structured grade table in the middle, and overall academic summary and issue information at the bottom.",
+    "image_text": [
+      "student name",
+      "student ID",
+      "course name",
+      "assessment item",
+      "grade",
+      "percentage",
+      "credit",
+      "GPA",
+      "academic term",
+      "teacher",
+      "issue date"
+    ]
+  },
+  "Credit Record": {
+    "overall_description": "A formal academic credit record documenting completed courses, earned credits, and degree progress.",
+    "layout_structure": "Institution and student information at the top, a multi-row credit record table in the center, and total earned credits with program requirement information at the bottom.",
+    "image_text": [
+      "student name",
+      "student ID",
+      "program",
+      "course code",
+      "course name",
+      "course category",
+      "credit",
+      "completion status",
+      "semester",
+      "earned credits",
+      "required credits",
+      "issue date"
+    ]
+  },
+  "Lawyer Letter": {
+    "overall_description": "A formal lawyer letter describing a legal dispute, claim, obligation, or requested action in dense professional text.",
+    "layout_structure": "Law firm or sender information at the top, recipient and reference information below, several structured paragraphs describing the matter, followed by requested action, deadline, lawyer information, and date.",
+    "image_text": [
+      "law firm name",
+      "recipient",
+      "reference number",
+      "subject",
+      "background",
+      "legal issue",
+      "requested action",
+      "response deadline",
+      "lawyer name",
+      "contact information",
+      "issue date"
+    ]
+  },
+  "Legal Opinion": {
+    "overall_description": "A professional legal opinion document analyzing a specific legal issue with structured facts, reasoning, and conclusions.",
+    "layout_structure": "Title and client information at the top, followed by sections for background, legal issue, analysis, conclusion, and professional information at the bottom.",
+    "image_text": [
+      "client name",
+      "reference number",
+      "subject",
+      "background facts",
+      "legal issue",
+      "analysis",
+      "conclusion",
+      "recommendation",
+      "lawyer name",
+      "issue date"
+    ]
+  },
+  "Dispute Record": {
+    "overall_description": "A structured dispute record documenting the parties, disputed issue, timeline, claims, and current resolution status.",
+    "layout_structure": "Case or dispute information at the top, party details below, a chronological record or structured sections in the main body, followed by current status and responsible personnel.",
+    "image_text": [
+      "record number",
+      "party A",
+      "party B",
+      "dispute type",
+      "disputed issue",
+      "event date",
+      "claim",
+      "response",
+      "resolution status",
+      "responsible person",
+      "record date"
+    ]
+  },
+  "Case Fact Record": {
+    "overall_description": "A factual case record summarizing involved parties, key events, evidence references, and documented statements.",
+    "layout_structure": "Case identification and parties at the top, factual background and chronological events in the main body, followed by evidence references, notes, recorder information, and date.",
+    "image_text": [
+      "case number",
+      "involved parties",
+      "event date",
+      "event location",
+      "fact summary",
+      "statement",
+      "evidence reference",
+      "witness or source",
+      "recorder",
+      "record date"
+    ]
+  },
+  "Product Quality Inspection Report": {
+    "overall_description": "A formal product quality inspection report containing product information, multiple inspection items, measured results, standards, and pass or fail conclusions.",
+    "layout_structure": "Inspection organization and product information at the top, a large multi-row inspection result table in the center, followed by an overall conclusion, inspector information, and report date.",
+    "image_text": [
+      "product name",
+      "model",
+      "manufacturer",
+      "sample number",
+      "inspection item",
+      "standard requirement",
+      "measured result",
+      "unit",
+      "judgment",
+      "overall conclusion",
+      "inspector",
+      "report date"
+    ]
+  },
+  "Food Inspection Report": {
+    "overall_description": "A structured food inspection report containing sample information, laboratory test items, measured values, regulatory limits, and inspection conclusions.",
+    "layout_structure": "Testing organization and food sample information at the top, a dense laboratory result table in the center, and inspection conclusion with analyst and date information at the bottom.",
+    "image_text": [
+      "sample name",
+      "sample number",
+      "food category",
+      "manufacturer",
+      "sampling date",
+      "test item",
+      "test result",
+      "unit",
+      "limit value",
+      "judgment",
+      "analyst",
+      "report date"
+    ]
+  },
+  "Environmental Test Report": {
+    "overall_description": "A technical environmental test report documenting measurement locations, environmental parameters, numerical readings, standards, and compliance results.",
+    "layout_structure": "Testing organization, project, and location information at the top, multiple measurement tables in the main body, followed by compliance conclusions and testing personnel.",
+    "image_text": [
+      "project name",
+      "test location",
+      "sampling point",
+      "test date",
+      "environmental parameter",
+      "measured value",
+      "unit",
+      "standard limit",
+      "compliance status",
+      "tester",
+      "report date"
+    ]
+  },
+  "Equipment Inspection Report": {
+    "overall_description": "A technical equipment inspection report documenting equipment identification, inspection checkpoints, observed conditions, measurements, and operational conclusions.",
+    "layout_structure": "Equipment and inspection information at the top, a multi-row checklist or result table in the center, and final status with inspector and date at the bottom.",
+    "image_text": [
+      "equipment name",
+      "equipment ID",
+      "model",
+      "inspection date",
+      "inspection item",
+      "required condition",
+      "observed condition",
+      "measurement",
+      "status",
+      "final conclusion",
+      "inspector"
+    ]
+  },
+  "Appraisal Report": {
+    "overall_description": "A professional appraisal report evaluating an item, condition, value, or technical characteristic using structured observations and conclusions.",
+    "layout_structure": "Appraisal organization and subject information at the top, evaluation criteria and detailed findings in the middle, followed by appraisal conclusion, estimated result, appraiser, and date.",
+    "image_text": [
+      "appraisal number",
+      "subject",
+      "requesting party",
+      "appraisal purpose",
+      "evaluation criteria",
+      "observed condition",
+      "evaluation result",
+      "estimated value",
+      "conclusion",
+      "appraiser",
+      "report date"
+    ]
+  },
+  "Shipping Label": {
+    "overall_description": "A dense parcel shipping label containing sender, recipient, routing, package, and tracking information arranged in compact blocks.",
+    "layout_structure": "Carrier and tracking information at the top, sender and recipient address blocks in the center, package and routing details below, with barcode or QR-code areas and handling information.",
+    "image_text": [
+      "tracking number",
+      "sender name",
+      "sender address",
+      "recipient name",
+      "recipient address",
+      "phone number",
+      "package weight",
+      "service type",
+      "routing code",
+      "shipping date"
+    ]
+  },
+  "Waybill": {
+    "overall_description": "A structured logistics waybill documenting shipment parties, goods information, transportation details, and delivery requirements.",
+    "layout_structure": "Waybill number and logistics provider at the top, sender and consignee information below, shipment details in a central table, and transport, fee, and signature information at the bottom.",
+    "image_text": [
+      "waybill number",
+      "shipper",
+      "consignee",
+      "origin",
+      "destination",
+      "goods description",
+      "quantity",
+      "weight",
+      "transport method",
+      "shipping date",
+      "delivery instruction",
+      "signature"
+    ]
+  },
+  "Delivery Record": {
+    "overall_description": "A structured delivery record documenting shipment details, delivery time, recipient status, and completion information.",
+    "layout_structure": "Delivery identification and recipient information at the top, shipment and delivery details in the middle, followed by status, remarks, recipient confirmation, and delivery personnel.",
+    "image_text": [
+      "delivery number",
+      "recipient",
+      "delivery address",
+      "package description",
+      "delivery date",
+      "delivery time",
+      "delivery status",
+      "recipient status",
+      "remarks",
+      "courier",
+      "confirmation"
+    ]
+  },
+  "Proof of Delivery": {
+    "overall_description": "A formal proof-of-delivery document recording shipment identification, delivery details, recipient confirmation, and completion status.",
+    "layout_structure": "Shipment and recipient information at the top, delivery details and confirmation fields in the center, followed by recipient name, signature area, courier information, and timestamp.",
+    "image_text": [
+      "tracking number",
+      "recipient name",
+      "delivery address",
+      "delivery date",
+      "delivery time",
+      "package quantity",
+      "delivery condition",
+      "confirmation status",
+      "signature",
+      "courier",
+      "remarks"
+    ]
+  },
+  "Logistics Tracking Record": {
+    "overall_description": "A logistics tracking record showing a chronological sequence of shipment status updates, locations, timestamps, and handling events.",
+    "layout_structure": "Tracking number and shipment summary at the top, followed by a long chronological tracking timeline or table containing multiple logistics events and locations.",
+    "image_text": [
+      "tracking number",
+      "origin",
+      "destination",
+      "event time",
+      "event location",
+      "facility",
+      "event description",
+      "transport stage",
+      "estimated delivery date",
+      "latest status"
+    ]
+  },
+  "Attendance Record": {
+    "overall_description": "A structured employee attendance record containing daily working times, attendance status, leave information, and monthly statistics.",
+    "layout_structure": "Organization, employee, and month information at the top, a large date-based attendance table in the center, followed by totals for attendance, absence, leave, and overtime.",
+    "image_text": [
+      "employee name",
+      "employee ID",
+      "department",
+      "date",
+      "check-in time",
+      "check-out time",
+      "attendance status",
+      "leave type",
+      "overtime hours",
+      "days present",
+      "days absent",
+      "month"
+    ]
+  },
+  "Performance Report": {
+    "overall_description": "A structured employee performance report documenting evaluation criteria, scores, comments, achievements, and overall assessment.",
+    "layout_structure": "Employee and evaluation period information at the top, performance criteria and scores in a central table, followed by comments, overall rating, evaluator information, and date.",
+    "image_text": [
+      "employee name",
+      "employee ID",
+      "department",
+      "evaluation period",
+      "performance criterion",
+      "weight",
+      "score",
+      "achievement",
+      "comment",
+      "overall rating",
+      "evaluator",
+      "evaluation date"
+    ]
+  },
+  "Work Incident Record": {
+    "overall_description": "A formal workplace incident record documenting involved personnel, event details, consequences, actions taken, and follow-up information.",
+    "layout_structure": "Organization and incident identification at the top, event details and involved personnel in the main body, followed by consequences, corrective action, responsible personnel, and record date.",
+    "image_text": [
+      "incident number",
+      "employee name",
+      "department",
+      "incident date",
+      "incident location",
+      "incident type",
+      "event description",
+      "impact",
+      "action taken",
+      "follow-up action",
+      "responsible person",
+      "record date"
+    ]
+  },
+  "Meeting Record": {
+    "overall_description": "A formal meeting record containing meeting information, participant details, agenda items, discussion notes, decisions, and action items.",
+    "layout_structure": "Meeting title, date, location, and participants at the top, followed by agenda items and structured discussion notes, with decisions and assigned action items at the bottom.",
+    "image_text": [
+      "meeting title",
+      "meeting date",
+      "location",
+      "chairperson",
+      "participants",
+      "agenda",
+      "discussion summary",
+      "decision",
+      "action item",
+      "responsible person",
+      "deadline",
+      "recorder"
+    ]
+  },
+  "Employment Record": {
+    "overall_description": "A structured employment record documenting an employee's organizational role, employment period, position changes, and work status.",
+    "layout_structure": "Organization and employee identification at the top, employment details and chronological position records in the center, followed by current status and record information.",
+    "image_text": [
+      "employee name",
+      "employee ID",
+      "department",
+      "position",
+      "employment start date",
+      "employment end date",
+      "employment status",
+      "position change",
+      "effective date",
+      "record number",
+      "record date"
+    ]
+  }
+}
